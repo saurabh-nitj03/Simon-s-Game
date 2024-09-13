@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    /* background-color: black; */
+}
+.box{
+    height: 300px;
+    width: 300px;
+    /* background-color: black; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.box div{
+    height: 120px;
+    width:120px;
+    border: 3px solid black;
+    border-radius: 25px;
+
+}
+.purple {
+    background-color: rgba(137, 43, 226, 0.407);
+}
+.blue{
+    background-color: rgba(0, 187, 255, 0.843);
+}
+.yellow{
+    background-color: rgba(255, 166, 0, 0.406);
+}
+.red{
+    background-color:rgba(255, 0, 34, 0.494);
+}
+.flash{
+    background-color:white;
+}
